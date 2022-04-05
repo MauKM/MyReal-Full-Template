@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main {
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    background-color: teal/*#4a4a4f*/;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 1%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #ffffff9e;
+    color: #4a4a4f;
+}
+
+.card {
+    /*float: left;*/
+    display: inline-block;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*.card:nth-child(n+3) {
+    width: 33%;
+}*/
+
+.card a {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+h2 {
+    text-align: center;
+}
+
+.spacer {
+    clear: both;
+}
